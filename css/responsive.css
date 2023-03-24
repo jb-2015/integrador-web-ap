@@ -1,0 +1,31 @@
+@media (max-width: 480px){
+	#anuncios{
+		display: block;
+		background-color: red;
+		width: 100%;
+	}
+	#seccionNoticias{
+		display: block;
+		min-width: 100%;
+	}
+	.noticia{
+		display: block;
+	}
+	p{
+		width: 100%;
+	}
+	.container-nav_opciones{
+		overflow-x: scroll;
+		justify-content: flex-start;
+
+	}
+	.contentAlum{
+		overflow-x: scroll;
+		justify-content: flex-start;
+		margin-left: 80px;
+		padding-right: 50px;
+	}
+	.itemAlum{
+		margin-right:100px;
+	}
+}
