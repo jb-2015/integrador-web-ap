@@ -1,5 +1,5 @@
 #imgSnoticia{
-	background-image: url(../sources/merlina.jpg);
+	background-image: url(../img/noticias/merlina.jpg);
 	background-size: cover;
 	height: inherit;
 	background-repeat: no-repeat;
@@ -10,10 +10,13 @@
 	min-height: 100px;
 }
 article{
-	
+	margin-top: 30px;
 	border-left: 10px solid black;
 }
 #fechaNoticia{
 	background-color: var(--fondoNegro);
 	color: white;
+}
+.r h1{
+	font-size: 24px;
 }
