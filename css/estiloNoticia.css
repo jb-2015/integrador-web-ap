@@ -1,0 +1,19 @@
+#imgSnoticia{
+	background-image: url(../sources/merlina.jpg);
+	background-size: cover;
+	height: inherit;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+#textoNoticia{
+	min-height: 100px;
+}
+article{
+	
+	border-left: 10px solid black;
+}
+#fechaNoticia{
+	background-color: var(--fondoNegro);
+	color: white;
+}
