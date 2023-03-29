@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sectionerror {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .sectionerror .sectionerror__conteiner {
+    padding: 6px;
+    width: 212px;
+    height: 168px;
+    text-align: center;
+    background-color: #000000;
+   
+  }
+  
+  .sectionerror .sectionerror__conteiner .sectionerror__textanimatedpulse--h1 {
+    margin: 0;
+    font-size: 70px;
+    color: #f5f5f5;
+    
+    -webkit-animation-name: pulse;
+            animation-name: pulse;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  
+  .sectionerror .sectionerror__conteiner .sectionerror__p {
+    margin: 9px auto;
+    color: #ffffff;
+  }
+  
+  .sectionerror .sectionerror__conteiner .sectionerror__a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.5s linear 0s;
+  }
+
+  .sectionerror .sectionerror__conteiner .sectionerror__a:hover{
+    background-color: #262671;
+  }
+  
+  @-webkit-keyframes pulse {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    to {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    to {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
